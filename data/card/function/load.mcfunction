@@ -1,8 +1,23 @@
-scoreboard objectives add card_temp dummy
+scoreboard objectives add card_color_count dummy
+scoreboard objectives add card_color_detect dummy
+scoreboard objectives add card_index dummy
 scoreboard objectives add card_open_pack dummy
-scoreboard objectives add card_rightclick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add card_random dummy
+scoreboard objectives add card_rightclick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add card_self_count dummy
+scoreboard objectives add card_slot dummy
+scoreboard objectives add card_temp dummy
+scoreboard objectives add card_temp_index dummy
+scoreboard objectives add card_value_9 dummy
+
+scoreboard objectives add card_1 dummy
+scoreboard objectives add card_2 dummy
+scoreboard objectives add card_3 dummy
+scoreboard objectives add card_4 dummy
+scoreboard objectives add card_5 dummy
+scoreboard objectives add card_6 dummy
+scoreboard objectives add card_7 dummy
+scoreboard objectives add card_8 dummy
 
 scoreboard objectives add card_armor dummy
 scoreboard objectives add card_armor_toughness dummy

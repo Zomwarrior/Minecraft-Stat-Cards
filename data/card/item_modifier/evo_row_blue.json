@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Per Blue Card on This Row",
+        "color": "aqua"
+      }
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect_color:1}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect:row}"
+  }
+]

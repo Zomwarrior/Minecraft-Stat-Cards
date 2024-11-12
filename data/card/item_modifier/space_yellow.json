@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "==========================================",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    "mode": "append"
+  }
+]

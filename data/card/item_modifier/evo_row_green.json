@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Per Green Card on This Row",
+        "color": "green"
+      }
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect_color:2}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect:row}"
+  }
+]

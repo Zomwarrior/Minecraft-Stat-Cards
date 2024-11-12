@@ -15,6 +15,15 @@ execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"movem
 execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"oxygen_bonus",card_type:"stat"}}}}] run scoreboard players operation @s card_oxygen_bonus += @s card_temp
 execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"step_height",card_type:"stat"}}}}] run scoreboard players operation @s card_step_height += @s card_temp
 
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_type:"evo"}}}}] run function card:check_evo/check
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"armor",card_type:"evo"}}}}] run scoreboard players operation @s card_armor += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"armor_toughness",card_type:"evo"}}}}] run scoreboard players operation @s card_armor_toughness += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"attack_damage",card_type:"evo"}}}}] run scoreboard players operation @s card_attack_damage += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"block_break_speed",card_type:"evo"}}}}] run scoreboard players operation @s card_block_break_speed += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"knockback_resistance",card_type:"evo"}}}}] run scoreboard players operation @s card_knockback_resistance += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"max_health",card_type:"evo"}}}}] run scoreboard players operation @s card_max_health += @s card_temp
+execute as @s[nbt={Item:{components:{"minecraft:custom_data":{card_effect:"movement_speed",card_type:"evo"}}}}] run scoreboard players operation @s card_movement_speed += @s card_temp
+
 scoreboard players set @s card_temp 0
 data remove entity @s Item.components.minecraft:custom_data
 data merge entity @s {Item:{components:{"minecraft:custom_data":{"temp_card":1b}}}}

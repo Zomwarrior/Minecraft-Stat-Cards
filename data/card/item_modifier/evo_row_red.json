@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Per Red Card on This Row",
+        "color": "red"
+      }
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect_color:3}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect:row}"
+  }
+]

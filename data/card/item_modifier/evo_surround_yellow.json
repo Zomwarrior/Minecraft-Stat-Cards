@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Per Surrounding Yellow Card",
+        "color": "yellow"
+      }
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect_color:4}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{card_detect:surround}"
+  }
+]
